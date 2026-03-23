@@ -1,0 +1,125 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+li { 
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    color: #999 !important;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'OldLondon', serif;
+    color: #808080; 
+    font-size: 1.2rem;
+    margin-top: -10px;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #3f3f3f; 
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+a {
+    font-family: "Times New Roman", Times, serif;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+#Logo {
+    display: inline-block !important;
+    height: 300px;
+    width: auto;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+#Redes {
+    display: flex;
+    height: 30px;
+}
+
+#Interitus {
+    height: 500px;
+    justify-content: center;
+}
+#LogoInsolito {
+    height: 300px;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    background-color: #000;
+    gap: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.botoes-grupo {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 20px;
+    flex: 1;
+}
+
+.botoes-grupo:first-of-type {
+    justify-content: flex-end !important;
+}
+
+.botoes-grupo:last-of-type {
+    justify-content: flex-start !important;
+}
+
+.botoes-grupo button {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    background: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-redes {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    filter: grayscale(1) invert(1);
+}
+
